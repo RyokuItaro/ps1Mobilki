@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PS1</string>
+    <string name="basicForm">Formularz</string>
+    <string name="nameLabel">Imię:</string>
+    <string name="lastnameLabel">Nazwisko:</string>
+    <string name="ageLabel">Wiek:</string>
+    <string name="genderLabel">Płeć:</string>
+    <string name="dobLabel">Data kupna pierwszego telefonu:</string>
+    <string name="rulesAcceptLabel">Akceptuje regulamin</string>
+    <string name="buttonLabel">Przycisk</string>
+
+    <string name="nameAlt">Imie placeholder</string>
+    <string name="lastnameAlt">Nazwisko placeholder</string>
+    <string name="ageAlt">Wiek placeholder</string>
+    <string name="genderAlt">Płeć placeholder</string>
+    <string name="dobAlt">Data kupna placeholder</string>
+    <string name="rulesAcceptAlt">Status akceptacji placeholder</string>
+
+    <string name="goBackButtonText">Następna karta</string>
+    <string name="goNextButtonText">Poprzednia karta</string>
+</resources>
