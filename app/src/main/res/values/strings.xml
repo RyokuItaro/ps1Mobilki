@@ -16,6 +16,13 @@
     <string name="dobAlt">Data kupna placeholder</string>
     <string name="rulesAcceptAlt">Status akceptacji placeholder</string>
 
+    <string name="nameSubmittedLabel">Podane imię</string>
+    <string name="lastnameSubmittedLabel">Podane nazwisko</string>
+    <string name="ageSubmittedLabel">Podany wiek</string>
+    <string name="genderSubmittedLabel">Podana płeć</string>
+    <string name="dobSubmittedLabel">Podana data kupna</string>
+    <string name="rulesAcceptSubmittedLabel">Czy zaakceptowano regulamin</string>
+
     <string name="goBackButtonText">Następna karta</string>
     <string name="goNextButtonText">Poprzednia karta</string>
 </resources>
