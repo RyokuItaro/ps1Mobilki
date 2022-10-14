@@ -51,7 +51,7 @@ public class SecondActivity extends AppCompatActivity {
         goNextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(SecondActivity.this, "Nie ma funkcjonalności ze stanami", Toast.LENGTH_SHORT).show();
+                view.getContext().startActivity(new Intent(view.getContext(), ThirdActivity.class));
             }
         });
     }

@@ -45,7 +45,9 @@ public class MainActivity extends AppCompatActivity {
                 myIntent.putExtra("dobText", dobValue.getText().toString());
                 myIntent.putExtra("rulesAcceptedBoolean", rulesCheckbox.isChecked() == true ? "Tak" : "Nie");
                 checkedRadioValue = findViewById(radioGroupValue.getCheckedRadioButtonId());
-                myIntent.putExtra("genderText", checkedRadioValue.getText().toString());
+                if(checkedRadioValue != null){
+                    myIntent.putExtra("genderText", checkedRadioValue.getText().toString());
+                }
                 view.getContext().startActivity(myIntent);
             }
         });
